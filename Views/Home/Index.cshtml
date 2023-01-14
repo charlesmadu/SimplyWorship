@@ -1,0 +1,63 @@
+﻿@*
+
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+
+*@
+@{
+    ViewData["Title"] = "";
+
+}
+
+<div class="main">
+
+    <div class="top">
+
+        <div class="preview-containter">
+
+            <div class="preview-box">
+                <ul>
+                    <p>Item</p>
+                    <p>Item</p>
+                    <p>Item</p>
+                    <p>Item</p>
+                    <p>Item</p>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="live-container">
+
+            <div class="live-box">
+                <h3>This is the Live Box</h3>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="bottom">
+
+        <p>Here it is: @ViewData["message"]</p>
+
+        <div class="navigate-container">
+
+            @using (Html.BeginForm("Index", "Home", FormMethod.Post))
+            {
+                <form method="get" action="Home\Index">
+                    <tr>
+                        <td>Enter Data Here: </td>
+                        <td><input type="text" id="tester_text" name="tester_text"/></td>
+                    </tr>
+
+                    <tr>
+                        <td><input type="submit"></td>
+                    </tr>
+                </form>
+            }
+
+
+        </div>
+    </div>
+
+</div>

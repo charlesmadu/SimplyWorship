@@ -1,0 +1,57 @@
+/* _content/SimplyWorship/Views/Home/Index.cshtml.rz.scp.css */
+*[b-fikyxq501j]{
+    margin: 0;
+    padding: 0;
+}
+
+.main[b-fikyxq501j]{
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 55% 45%;
+}
+
+.main .top[b-fikyxq501j]{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.main .bottom[b-fikyxq501j]{
+    background-color: lightblue;
+}
+
+.main .top .preview-containter[b-fikyxq501j]{
+}
+
+.main .top .preview-containter .preview-box[b-fikyxq501j]{
+    background-color: cornflowerblue;
+    height: 100%;
+}
+
+.main .top .live-container[b-fikyxq501j]{
+}
+
+.main .top .live-container .live-box[b-fikyxq501j]{
+    background-color: black;
+    height: 100%;
+}
+
+.main .bottom .navigate-container[b-fikyxq501j]{
+}
+
+.span-2[b-fikyxq501j]{
+    grid-column: span 2;
+}
+/* _content/SimplyWorship/Views/Home/LivePage.cshtml.rz.scp.css */
+
+.main[b-97fdg6tg2k]{
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1[b-97fdg6tg2k]{
+    color: red;
+    font-size: 7em;
+}
